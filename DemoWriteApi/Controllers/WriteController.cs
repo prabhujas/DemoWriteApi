@@ -15,13 +15,6 @@ namespace DemoWriteApi.Controllers
             this.writeService = writeService;
         }
 
-        // GET api/write/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
-        {
-            return id+"";
-        }
-
         // POST api/write
         [HttpPost]
         public void Post(WriteRequest request)
