@@ -5,10 +5,11 @@ namespace DemoWriteApi.Services
 {
     public class WriteService : IWriteService
     {
-     
-        public void PostData(WriteRequest request)
+
+        public void WriteData(WriteRequest request)
         {
-            Console.WriteLine(request.Payload);
+            
+            Console.WriteLine(request.Payload ?? "Hello World");
         }
     }
 }

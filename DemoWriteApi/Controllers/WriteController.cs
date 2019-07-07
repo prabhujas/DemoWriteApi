@@ -19,7 +19,7 @@ namespace DemoWriteApi.Controllers
         [HttpPost]
         public void Post(WriteRequest request)
         {
-            writeService.PostData(request);
+            writeService.WriteData(request);
         }
     }
 }

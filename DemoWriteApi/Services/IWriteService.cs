@@ -5,6 +5,6 @@ namespace DemoWriteApi.Services
 {
     public interface IWriteService
     {
-        void PostData(WriteRequest request);
+        void WriteData(WriteRequest request);
     }
 }
